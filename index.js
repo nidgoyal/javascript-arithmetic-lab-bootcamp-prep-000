@@ -26,6 +26,14 @@ function dec(a){
 }
 
 
+function makeInt(a){
+  return(parseInt(a.toString()))
+}
+
+n='0x2328'
+function makeInt(n){
+  return(parseInt(a))
+}
 
 
 describe('makeInt(n)', function() {
