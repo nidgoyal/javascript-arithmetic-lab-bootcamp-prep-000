@@ -29,3 +29,8 @@ function dec(a){
 function makeInt(a){
   return(parseInt(a.toString(),10))
 }
+
+
+function preserveDecimal(n){
+  return(parseFloat(n.toString()))
+  }
