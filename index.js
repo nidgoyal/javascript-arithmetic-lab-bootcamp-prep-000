@@ -32,20 +32,20 @@ function makeInt(a){
 
 n='0x2328'
 function makeInt(n){
-  return(parseInt(a))
+  return(parseInt(n.toString()))
 }
 
 n='sldkjflksjf'
 function makeInt(n){
-  return(isNaN(parseInt(n)))
+  return(isNaN(parseInt(n.toString())))
 }
 
 n='2.222'
 function preserveDecimal(n){
-  return(parseFloat(n))
+  return(parseFloat(n.toString()))
 }
 
 n='sldkjflksjf'
 function preserveDecimal(n){
-  return(isNaN(parseFloat(n)))
+  return(isNaN(parseFloat(n.toString())))
 }
